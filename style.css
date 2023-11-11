@@ -1,0 +1,102 @@
+/* Common styles for both index.html and contact.html */
+
+body {
+    height: 100vh;
+    width: 100vw;
+    background-color: hsla(290, 90%, 49%, 0.922);
+    font: italic small-caps bold 12px/30px Georgia, serif;
+    padding: 2em;
+}
+
+header {
+    background-color: hsl(237, 100%, 51%);
+}
+
+main, aside {
+    float: left;
+    width: 65vw;
+    background-color: hsl(173, 100%, 52%);
+}
+
+aside {
+    float: right;
+    width: 25vw;
+    background-color: hsl(246, 100%, 51%);
+}
+
+footer {
+    clear: both;
+    background-color: hsl(116, 100%, 48%);
+}
+
+.structural {
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid black;
+}
+
+/* Add the following attribute selectors for form elements */
+input[type="text"],
+input[type="email"],
+input[type="submit"],
+select,
+option {
+    width: 50%;
+    display: block;
+    height: 2em;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    height: 2em;
+    width: 2em;
+}
+
+select, option, label, legend, input[type="submit"] {
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-variant: small-caps;
+}
+
+textarea {
+    width: 50%;
+    display: block;
+}
+
+fieldset {
+    border: none;
+}
+
+/* Specific styles for index.html */
+
+h1 {
+    color: green;
+    font-size: 24px;
+}
+
+/* Add the following rules for nav styling */
+nav {
+    border: 2px solid black;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav li {
+    display: inline;
+}
+
+nav a {
+    border: 2px solid indigo;
+    font-color: indigo;
+    background-color: cornsilk;
+    text-decoration: none;
+}
+
+nav a:hover {
+    border: 2px solid cornsilk;
+    font-color: cornsilk;
+    background-color: indigo;
+}

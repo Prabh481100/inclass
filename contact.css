@@ -1,0 +1,72 @@
+/* Add the following rules for contact.html styling */
+
+/* You can customize these styles further based on your preferences */
+
+body {
+    height: 100vh;
+    width: 100vw;
+    background-color: hsla(290, 66%, 52%, 0.922);
+    font: italic small-caps bold 12px/30px Georgia, serif;
+    padding: 2em;
+}
+
+header {
+    background-color: hsl(62, 100%, 51%);
+}
+
+main, aside {
+    float: left;
+    width: 65vw;
+    background-color: hsl(173, 77%, 76%);
+    
+}
+
+aside {
+    float: right;
+    width: 25vw;
+    height: 75vh;
+    background-color: hsl(136, 100%, 51%);
+}
+
+footer {
+    clear: both;
+    background-color: hsl(357, 100%, 48%);
+}
+
+.structural {
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid black;
+}
+
+/* Add the following attribute selectors for form elements */
+input[type="text"],
+input[type="email"],
+input[type="submit"],
+select,
+option {
+    width: 50%;
+    display: block;
+    height: 2em;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    height: 2em;
+    width: 2em;
+}
+
+select, option, label, legend, input[type="submit"] {
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-variant: small-caps;
+}
+
+textarea {
+    width: 50%;
+    display: block;
+}
+
+fieldset {
+    border: none;
+}
